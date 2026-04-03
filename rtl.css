@@ -1,0 +1,33 @@
+/*
+ * RTL (Right-to-Left) stylesheet — Discover Tasty Food
+ * Loaded automatically by WordPress when the active language is RTL (Arabic, Hebrew, Farsi, etc.)
+ * Add RTL-specific overrides below as needed.
+ */
+
+body { direction: rtl; unicode-bidi: embed; }
+
+/* Topbar & header */
+.site-topbar .site-wrap { flex-direction: row-reverse; }
+.topbar-right            { flex-direction: row-reverse; }
+.site-header .site-wrap  { direction: rtl; }
+.header-pills            { align-items: flex-start; }
+.header-pill             { margin-left: 0; margin-right: 20px; }
+
+/* Content grid */
+.content-sidebar         { direction: rtl; }
+.content-main            { padding: 28px 0 28px 24px; }
+.content-sidebar-col     { padding: 24px 18px 24px 0; }
+
+/* Post cards */
+.post-card               { flex-direction: row-reverse; }
+.post-card-body          { text-align: right; }
+.read-more-btn           { display: inline-block; }
+
+/* Sidebar */
+.sb-section              { text-align: right; }
+.sb-post                 { flex-direction: row-reverse; }
+.sb-dot                  { margin-left: 8px; margin-right: 0; }
+.sb-review               { flex-direction: row-reverse; }
+
+/* Footer */
+.site-footer .site-wrap  { flex-direction: row-reverse; }
