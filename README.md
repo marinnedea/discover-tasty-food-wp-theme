@@ -1,6 +1,6 @@
 # Discover Tasty Food — WordPress Theme
 
-![Discover Tasty Food theme screenshot](screenshot.png)
+![Discover Tasty Food theme screenshot](https://raw.githubusercontent.com/marinnedea/discover-tasty-food-wp-theme/main/screenshot.png)
 
 A dish-first WordPress food blog theme with **Food Encounter** and **Recipe** custom post types. Editorial layout, dark mode, mobile-first responsive design, newsletter widget, category featured images, and a full built-in admin manual.
 
